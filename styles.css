@@ -4241,6 +4241,7 @@ x{
     top: 0;
     left: 0;        
 }
+
 @media screen and (max-width:750px) {
     .whopper51 .letter51{
         height: 80.5px;
