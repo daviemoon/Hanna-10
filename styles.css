@@ -22,8 +22,12 @@ header {
 #logo {
     max-width: 75%;
     max-height: 75%;
+    transition: transform .2s;    
       }
 
+ #logo:hover{
+   transform:scale(2);  
+ }
 
 @media screen and (max-width:750px) {
     #logo {
