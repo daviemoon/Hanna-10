@@ -4170,6 +4170,25 @@ x{
     }
 }
 
+.pepperoni{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.pepperoni .letter101{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .pepperoni .letter101{
+        height: 80.5px;
+        width: 134.625px;
+    }
+
 .pepperoni .btn101{
     position: absolute;
     height: 107.3px;
