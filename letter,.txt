@@ -1,0 +1,158 @@
+0000000000000000
+**TEMPLATES**: ONLY COPY AND PASTE!!!!!
+9 OR 5 = COPY
+3= PASTE
+
+    
+    
+                    <img class="x" src="images/stamp/x.png">  
+                    <div class=garamond>
+                        <p>
+                        
+                        
+                        </p> 
+                    </div>
+
+
+________________________
+
+.modal-content(n)  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content(n){
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+________________________
+
+
+<img class="y" src="images/stamp/y.png">  
+<div class=garamond>
+    <p>
+    Dear Hanna, <br>
+    <br>
+    I speak fluently Italian, more or less Chinese and English and a little bit of Spanish. <br>
+    <br>
+    I find German a gorgeous and pleasurable language, it's definitely hard but I enjoy it. <br>
+    In the recent years I have been speaking English  to a great extent, in some occasions more than Italian which remains nonetheless my predilected in poetry and writing. <br>
+    <br>
+    An 8 pages interpretation! That's insane, I am truly amazed! We do have similar assignments in literature or subjects like history of art, but we are rather synthetic, usually 2-3 pages. <BR>
+    <br>
+    You can imagine I am a guy who tends to overdo, a friend of mine reminded me how I prepared 40 pages notes on an Italian author later last year. <br>
+    But it was completely different because it was just for personal revising purpose. <br>
+    <br>
+    I am sure you did extraordinary, culture is a bless. <br>
+    <br>
+    You woke up in wonderland yesterday morning, how magical! Maybe, quoting a popular song, <a href="https://open.spotify.com/track/6q6FrASxVY04n22Q5NVNu7?si=7c97061940d74267">life could be a dream! (sh-boom) </a>
+    <br>
+    I would try if I could but Italian buroucracy is excessively complicated and the best I could do would be go to an open day, but it's too late for this year and well.. Covid. <br> 
+    <br> 
+    She is my therapist and she would prefer me to guide me in solving my problems, but the final decision is up to me. <br> 
+    <br> 
+    I learnt Latin for two years and I adored it, my teacher, who also taught history and later Italian, was so enthusiastic, passionate and brilliant, she is one of the most cultured person I have ever met. <br> 
+    <br> 
+    I feel your geography teacher, from what you told me it does sounds like that he strongly believes in what he does and is misunderstood. <br> 
+    <br> 
+    I had similar unappreciated teachers like my philosophy teacher in third year. He is a peculiar subject, who speaks and acts like how you could picture a philosopher, he never forced his students to listen to his classes or gave grades, so most people just ignored him. <br> 
+    But I got to knew him and his lessons were stunning, he wanted us to develop a critical approach and made us write essays reflecting the themes that had been touched in class, rather than exposing them word by word in an oral test or closed answers papers. <br> 
+    <br> 
+    Since you got to keep that promise, perhaps it would be better for you to think about it as something you do together having some fun, more than a serious and complete workout plan. Good luck with that! <br> 
+    <br> 
+    I want to share with you a splendid artistic installation present these days at Palazzo Strozzi  in my near town  Florence, called "La Ferita", which is "The Wound". <br> 
+    <br>     
+    This monumental piece of artwork realized by the renowned contemporary French artist J.R using the technique of collage art, represents a glimpse in the splendid Renaissance Palace and theoretically all the museums in Italy, <br> 
+    which have been closed for a long time and are 'wounded' due to Covid-19 pandemic. It's quite impressive and provoking, my heart is always inspired when I see such magnificent ideas. <br> 
+    <br> 
+    You know, sometimes I think I am meant to be some sort of artist, I feel genuinely connected to this world but I have to seek to find my way. <br> 
+    So I believe is your dream to become a vet, it's possible but long-term goals require patience and efforts step by step. <br> 
+    <br> 
+    Is there anything you wish you didn't have or had to feel better and move on in your ideals? <br> 
+    <br> 
+    World poetry day is indeed tomorrow, I might send you something I wrote, not sure about that yet. <br> 
+    <br> 
+    The little bunny at the end of letter is back, that makes me happy! <br> 
+    It reminds me of your delightful first letter, and how impressed I was that evening of almost two months ago and how enthusiastic still I am everyday now. <br> 
+    <br> 
+    Have an outstanding grand day, you are incredible, keep positive! <br> 
+    <br> 
+    With love and a touch of magic, <br> 
+    Your Davide. <br> 
+    </p> 
+</div>
+
+RGB: (91, 25, 123)
+
+
+.modal-content(n)  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content(n){
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+MUSIC TEMPLATE
+
+<a href="https://open.spotify.com/track/5GfEP6jZmIJaAGBKbX1gWc?si=04c1cc20ae934ade">Mika - Staring at the sun</a>
+
+<a href="https://open.spotify.com/track/1JP1hpWuSxldjHndSdRQDJ?si=6c211ca09326414f">Castel by Freya Ridings but the orchestral version</a>
+
+
+

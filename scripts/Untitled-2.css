@@ -1,0 +1,35 @@
+background-color: grey;
+    background-size: cover;
+    background-image: none;
+    border-color: transparent;
+
+    background-color: grey;
+    background-size: cover;
+    background-image: none;
+    border-color: transparent;
+    height: 400px;
+    width: 400px;
+
+
+    <button id="modalBtn" class="letter1"></button>
+        <div id="simpleModal" class="modal">
+            <div class="modal-content">
+                <span class="closeBtn">&times;</span>
+                <p>Hello...I am a modal</p>
+            </div>
+        </div>
+    </div> 
+        <button id="modalBtn" class="letter2"></button>
+        <div id="simpleModal" class="modal">
+            <div class="modal-content">
+                <span class="closeBtn">&times;</span>
+                <p>Hello...I am a modal</p>
+            </div>
+        </div>
+        <button id="modalBtn" class="letter3"></button>
+        <div id="simpleModal" class="modal">
+            <div class="modal-content">
+                <span class="closeBtn">&times;</span>
+                <p>Hello...I am a modal</p>
+            </div>
+        </div>

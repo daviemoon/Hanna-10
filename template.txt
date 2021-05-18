@@ -1,0 +1,124 @@
+
+
+<img class="(n)" src="images/stamp/(n).png">  
+<div class=garamond>
+    <p>
+   
+    </p>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-content(n)  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content(n){
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+________________________
+
+
+
+.modal-content(n)  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content(n){
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+
+
+
+
+
+
+ .garamondblack{
+    text-align:left;
+    line-height:33px;
+    font-family: 'EB Garamond', serif;
+    font-size:20px;
+    color:white;
+ }
+
+
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s

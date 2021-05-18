@@ -1,0 +1,7647 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;  
+}
+
+html, body {
+    background-image: url("images/aesthetictree.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;          
+}
+header {    
+    text-align: center;
+    background: transparent;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#logo {
+    max-width: 75%;
+    max-height: 75%;
+      }
+
+
+@media screen and (max-width:750px) {
+    #logo {
+        margin-left:70%;
+        }
+    }
+      
+
+          
+
+#lettermodal {
+    position:relative;
+    text-align: center;
+    background:rgba(3, 172, 240, 0.2);
+    height: 400px;
+    padding: 0;
+    width: 100vw;
+}
+
+    #lettermodal .bigmac{ 
+        display:block;
+        position: relative;
+        background-color:red;
+        text-align: center;
+        width: fit-content;
+        margin-left:auto;
+        margin-right:auto;
+        padding:0;
+        background-color: transparent;
+}
+.bigmac .dreamletter{
+    position: relative;
+    margin-top:15%;
+    height: 245px;
+    width: 431.4px;
+    top:0;
+    left:0;
+        
+}
+
+.bigmac .btn{
+    position:absolute;
+    height: 245px;
+    width: 431.4px;
+    top: 0;
+    left: 0;
+    border:transparent;
+    background-color: transparent;
+    color: black;
+}
+.modal{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    min-height:100vh;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content{
+    background: white;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin: 15% auto;  
+    padding: 20px;
+    width:70%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+}
+
+.closeBtn{
+   color:#ccc;
+  float:right;
+  font-size:30px;  
+}
+
+.closeBtn:hover,.closeBtn:focus{
+    color:#000;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.cormorant{
+    text-align:center;
+    line-height:33px;
+    font-family: 'Old Standard TT', serif;
+    font-size:30px;
+    color:black;
+ }
+
+.oldstandard{
+    text-align:center;
+    line-height:33px;
+    font-family: 'Old Standard TT', serif;
+    font-size:20px;
+    color:black;
+ }
+
+
+
+@media screen and (max-width:750px) {
+    #lettermodal {
+       width: 180vw;
+    }
+}
+
+#container{
+    display:flex;
+    text-align: center;
+    background-color:none;
+    margin-top: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+@media screen and (max-width:750px) {
+    #container{
+    MIN-width:100vw; 
+    }
+}
+.left{
+    width: 50vw;
+    display: grid;
+    margin-top: 2%;
+    gap: 6%;
+    margin-left:1%;
+    margin-right:2%;
+    grid-template-columns: repeat(auto-fit, minmax(179.5px,1fr));
+}
+
+@media screen and (max-width:750px) {
+    .left{
+     width:50%;
+     gap: 3%;  
+     margin-top:8%;
+     margin-left: 25%;
+     margin-right:25%;
+    }
+}
+
+.whopper{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper .letter{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;       
+}
+
+@media screen and (max-width:750px) {
+    .whopper .letter{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+.whopper .btn{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+
+.modal1{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content1{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper2{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper2 .letter2{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;       
+}
+
+@media screen and (max-width:750px) {
+    .whopper2 .letter2{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+.whopper2 .btn2{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+
+.modal2{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content2{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content2{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper3{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper3 .letter3{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;   
+}
+
+@media screen and (max-width:750px) {
+    .whopper3 .letter3{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper3 .btn3{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal3{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content3{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content3{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+.whopper4{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+
+.whopper4 .letter4{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper4 .letter4{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper4 .btn4{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal4{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content4{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content4{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+.whopper5{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper5 .letter5{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+
+@media screen and (max-width:750px) {
+    .whopper5 .letter5{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper5 .btn5{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal5{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content5{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content5{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper6{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper6 .letter6{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper6 .letter6{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper6 .btn6{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal6{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content6{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content6{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper7{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper7 .letter7{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper7 .letter7{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper7 .btn7{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal7{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content7{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content7{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper8{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper8 .letter8{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper8 .letter8{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper8 .btn8{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal8{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content8{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content8{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+.whopper9{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper9 .letter9{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper9 .letter9{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper9 .btn9{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal9{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content9{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content9{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+ 
+.modal10{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content10{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+
+.whopper10{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper10 .letter10{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper10 .letter10{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper10 .btn10{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal10{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content10{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content10{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper11{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper11 .letter11{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper11 .letter11{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+
+.whopper11 .btn11{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal11{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content11{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content11{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.modal12{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content12{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+
+.whopper12{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper12 .letter12{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper12 .letter12{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper12 .btn12{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content12{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.modal13{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content13{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+
+.whopper13{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper13 .letter13{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper13 .letter13{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper13 .btn13{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content13{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.modal14{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content14{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+
+.whopper14{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper14 .letter14{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper14 .letter14{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper14 .btn14{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content14{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+
+.whopper15{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper15 .letter15{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper15 .letter15{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper15 .btn15{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal15{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content15{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content15{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+.whopper16{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper16 .letter16{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper16 .letter16{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper16 .btn16{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal16{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content16{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content16{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper17{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper17 .letter17{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper17 .letter17{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+
+.whopper17 .btn17{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal17{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content17{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content17{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper18{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper18 .letter18{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper18 .letter18{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper18 .btn18{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal18{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content18{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content18{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper19{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper19 .letter19{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper19 .letter19{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper19 .btn19{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal19{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content19{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content19{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper20{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper20 .letter20{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper20 .letter20{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper20 .btn20{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal20{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content20{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content20{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper21{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper21 .letter21{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper21 .letter21{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper21 .btn21{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal21{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content21{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content21{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper22{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper22 .letter22{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+
+@media screen and (max-width:750px) {
+    .whopper22 .letter22{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper22 .btn22{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal22{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content22{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content22{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper23{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper23 .letter23{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper23 .letter23{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper23 .btn23{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal23{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content23{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content23{
+    width:90%;
+    height:200%;
+    }
+
+    .x{
+        margin-left:70%;
+        width:25%;
+        height:8%;   
+        }
+        .x:hover{
+        transform:scale(2.0)
+        }
+    }
+
+    .whopper24{ 
+        position: relative;
+        text-align: center;
+        width: 20%;
+        background-color: transparent;
+    }
+    .whopper24 .letter24{
+        position: relative;
+        height: 107.3px;
+        width: 179.5px;
+        top: 0;
+        left: 0;        
+    }
+    @media screen and (max-width:750px) {
+        .whopper24 .letter24{
+            height: 80.5px;
+            width: 134.625px;
+        }
+    }
+
+
+.whopper24 .btn24{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal24{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content24{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content24{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper25{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper25 .letter25{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper25 .letter25{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper25 .btn25{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal25{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content25{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content25{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper26{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper26 .letter26{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper26 .letter26{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper26 .btn26{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal26{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content26{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content26{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper27{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper27 .letter27{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper27 .letter27{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper27 .btn27{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal27{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content27{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content27{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper28{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper28 .letter28{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper28 .letter28 {
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper28 .btn28{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal28{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.modal-content28  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content28{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+
+}
+
+.whopper29{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper29 .letter29{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper29 .letter29{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper29 .btn29{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal29{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.modal-content29  {
+    background-color:rgba(91,25,123,0.4);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content29{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper30{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper30 .letter30{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px){ 
+    .whopper30 .letter30{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper30 .btn30{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal30{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content30  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content30{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+
+.whopper31{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper31 .letter31{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper31 .letter31{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper31 .btn31{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal31{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content31  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content31{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+.whopper32{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper32 .letter32{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper32 .letter32{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper32 .btn32{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal32{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content32  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content32{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper33{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper33 .letter33{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper33 .letter33{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper33 .btn33{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal33{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content33  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content33 {
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper34{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper34 .letter34{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper34 .letter34{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper34 .btn34{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal34{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content34  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content34{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper35{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper35 .letter35{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper35 .letter35{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper35 .btn35{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal35{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content35  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content35{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper36{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper36 .letter36{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper36 .letter36{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper36 .btn36{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal36{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content36  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content36 {
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper37{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper37 .letter37{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper37 .letter37{
+        height: 80.5px;
+        width: 140.625px;
+    }
+}
+
+.whopper37 .btn37{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal37{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content37  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content37{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper38{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper38 .letter38{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper38 .letter38{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper38 .btn38{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal38{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+
+.modal-content38  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content38{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content38{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper39{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper39 .letter39{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper39 .letter39{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper39 .btn39{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal39{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content39  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.x{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .x:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content39{
+    width:90%;
+    height:200%;
+    }
+    .x{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .x:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+.whopper40{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper40 .letter40{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper40 .letter40{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper40 .btn40{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal40{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content40  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+
+.hideaway {
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .hideaway:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content40{
+    width:90%;
+    height:200%;
+    }
+    .hideaway{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .hideaway:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+.whopper41{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper41 .letter41{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper41 .letter41{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper41 .btn41{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal41{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.modal-content41  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.bread{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .bread:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content41{
+    width:90%;
+    height:200%;
+    }
+    .bread{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .bread:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+.whopper42{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper42 .letter42{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper42 .letter42{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper42 .btn42{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal42{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+ 
+.modal-content42  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.jacket{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .jacket:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content42{
+    width:90%;
+    height:200%;
+    }
+    .jacket{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .jacket:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper43{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper43 .letter43{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper43 .letter43{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper43 .btn43{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal43{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.modal-content43  {
+    background-color:rgba(255,255,255,0.9);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+
+.shoes{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .shoes:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content43{
+    width:90%;
+    height:200%;
+    }
+    .shoes{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .shoes:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+.whopper44{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper44 .letter44{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper44 .letter44{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper44 .btn44{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal44{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content44{
+    background-color:rgba(0,0,0,0.4);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+ .garamondblack{
+    text-align:left;
+    line-height:33px;
+    font-family: 'EB Garamond', serif;
+    font-size:20px;
+    color:white;
+ }
+
+
+.tophat {
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .tophat:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content44{
+    width:90%;
+    height:200%;
+    }
+    .tophat{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .tophat:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+.whopper45{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper45 .letter45{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper45 .letter45{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper45 .btn45{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+
+.whopper46 {
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper46 .letter46{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper46 .letter46{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper46 .btn46{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal46{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content46{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.infinite{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .infinite:hover{
+   transform:scale(1.5);  
+ }
+
+
+ a {
+    text-decoration:none;
+ }
+
+
+ @media screen and (max-width:750px) {
+    .modal-content46{
+      width:90%;
+      height:200%;
+      }
+      .infinite{
+      margin-left:70%;
+      width:25%;
+      height:8%;   
+      }
+      .infinite:hover{
+         transform:scale(2.0)
+      }
+   }
+
+.whopper47 {
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper47 .letter47{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper47 .letter47{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper47 .btn47{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal47{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content47{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+
+.pink{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .pink:hover{
+   transform:scale(1.5);  
+ }
+
+ a {
+    text-decoration:none;
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content47{
+    width:90%;
+    height:200%;
+    }
+    .pink{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .pink:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper48{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper48 .letter48{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper48 .letter48{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper48 .btn48{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal48{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content48{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.water{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .water:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content48{
+    width:90%;
+    height:200%;
+    }
+    .water{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .water:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper49{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper49 .letter49{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper49 .letter49{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper49 .btn49{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal49{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content49{
+    background-color:rgba(255,255,255,0.9);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.flower{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .flower:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content49{
+    width:90%;
+    height:200%;
+    }
+    .flower{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .flower:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper50{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper50 .letter50{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper50 .letter50{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper50 .btn50{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal50{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content50{
+    background-color:rgba(255,255,255,0.9);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.fall{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .fall:hover{
+   transform:scale(1.5);  
+ }
+
+
+  .garamond{
+     text-align:left;
+     line-height:33px;
+     font-family: 'EB Garamond', serif;
+     font-size:20px;
+  }
+
+
+  @media screen and (max-width:750px) {
+  .modal-content50{
+    width:90%;
+    height:200%;
+    }
+    .fall{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .fall:hover{
+       transform:scale(2.0)
+    }
+ }
+ 
+
+.right{
+    width: 50vw;
+    display: grid;
+    gap: 6%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right:1%;
+    grid-template-columns: repeat(auto-fit, minmax(179.5px,1fr))
+}
+
+@media screen and (max-width:750px) {
+.right{
+    width:50vw;
+    gap: 3%;
+    margin-top:8%;  
+    margin-left:25%;
+    margin-right:25%;
+    grid-template-columns: repeat(auto-fit, minmax(134.625px,1fr)) 
+    }
+}
+
+.whopper51{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper51 .letter51{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper51 .letter51{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper51 .btn51{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal51{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content51{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper52{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper52 .letter52{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper52 .letter52{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper52 .btn52{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal52{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content52{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.whopper53{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper53 .letter53{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper53 .letter53{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper53 .btn53{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal53{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content53{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper54{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper54 .letter54{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper54 .letter54{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper54 .btn54{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal54{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content54{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper55{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper55 .letter55{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper55 .letter55{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper55 .btn55{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal55{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content55{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper56{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper56 .letter56{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper56 .letter56{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper56 .btn56{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal56{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content56{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper57{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper57 .letter57{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper57 .letter57{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper57 .btn57{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal57{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content57{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper58{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper58 .letter58{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper58 .letter58{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper58 .btn58{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal58{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content58{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper59{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper59 .letter59{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper59 .letter59{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper59 .btn59{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal59{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content59{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper60{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper60 .letter60{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper60 .letter60{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper60 .btn60{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal60{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content60{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper61{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper61 .letter61{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper61 .letter61{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper61 .btn61{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal61{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content61{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper62{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper62 .letter62{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper62 .letter62{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper62 .btn62{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal62{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content62{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper63{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper63 .letter63{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper63 .letter63{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper63 .btn63{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal63{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content63{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper64{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper64 .letter64{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper64 .letter64{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper64 .btn64{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal64{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content64{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper65{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper65 .letter65{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper65 .letter65{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper65 .btn65{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal65{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content65{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper66{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper66 .letter66{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper66 .letter66{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper66 .btn66{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal66{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content66{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper67{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper67 .letter67{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper67 .letter67{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper67 .btn67{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal67{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content67{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper68{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper68 .letter68{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper68 .letter68{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper68 .btn68{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal68{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content68{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content68{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper69{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper69 .letter69{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper69 .letter69{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper69 .btn69{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal69{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content69{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content69{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper70{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper70 .letter70{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper70 .letter70{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper70 .btn70{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal70{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content70{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content70{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper71{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper71 .letter71{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper71 .letter71{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper71 .btn71{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal71{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content71{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content71{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+ 
+.whopper72{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper72 .letter72{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper72 .letter72{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper72 .btn72{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal72{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content72{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content72{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper73{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper73 .letter73{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper73 .letter73{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper73 .btn73{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal73{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content73{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content73{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper74{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper74 .letter74{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper74 .letter74{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper74 .btn74{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal74{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content74{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content74{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper75{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper75 .letter75{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper75 .letter75{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper75 .btn75{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal75{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content75{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content75{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+.whopper76{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper76 .letter76{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper76 .letter76{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper76 .btn76{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal76{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content76{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content76{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper77{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper77 .letter77{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper77 .letter77{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper77 .btn77{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal77{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content77{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content77{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper78{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper78 .letter78{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper78 .letter78{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper78 .btn78{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal78{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content78{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper79{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper79 .letter79{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper79 .letter79{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper79 .btn79{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal79{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+ 
+.modal-content79  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content79{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper80{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper80 .letter80{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper80 .letter80{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper80 .btn80{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal80{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content80  {
+    background-color:rgba(91,25,123,0.4);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content80{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+ .garamondpurple{
+    text-align:left;
+    line-height:33px;
+    font-family: 'EB Garamond', serif;
+    font-size:20px;
+    color:rgba(221,202,237,0.8);
+}
+
+.whopper81{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper81 .letter81{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper81 .letter81{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper81 .btn81{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal81{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content81 {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content81{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+.whopper82{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper82 .letter82{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper82 .letter82{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper82 .btn82{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal82{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content82  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content82{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper83{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper83 .letter83{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper83 .letter83{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper83 .btn83{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal83{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content83{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.whopper84{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper84 .letter84{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper84 .letter84{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper84 .btn84{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal84{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content84  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content84 {
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper85{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper85 .letter85{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper85 .letter85{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper85 .btn85{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal85{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content85  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content85{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper86{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper86 .letter86{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper86 .letter86{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper86 .btn86{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal86{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.modal-content86  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content86{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+
+.whopper87{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper87 .letter87{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper87 .letter87{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper87 .btn87{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal87{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content87  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content87{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+.whopper88{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper88 .letter88{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper88 .letter88{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper88 .btn88{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal88{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-content88  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content88{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content88 {
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper89{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper89 .letter89{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper89 .letter89{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper89 .btn89{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal89{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content89{
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.y{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .y:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content89{
+    width:90%;
+    height:200%;
+    }
+    .y{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .y:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper90{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper90 .letter90{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper90 .letter90{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper90 .btn90{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal90{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.modal-content90  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.snake{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .snake:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content90{
+    width:90%;
+    height:200%;
+    }
+    .snake{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .snake:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper91{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper91 .letter91{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper91 .letter91{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper91 .btn91{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal91{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.modal-content91  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+
+.siepe{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .siepe:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content91{
+    width:90%;
+    height:200%;
+    }
+    .siepe{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .siepe:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper92{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper92 .letter92{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper92 .letter92{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper92 .btn92{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal92{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.modal-content92  {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.umbrella {
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .umbrella:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content92 {
+    width:90%;
+    height:200%;
+    }
+    .umbrella {
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .umbrella:hover{
+       transform:scale(2.0)
+    }
+ }
+
+ 
+
+.whopper93{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper93 .letter93{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper93 .letter93{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper93 .btn93{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal93{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content93 {
+    background-color:rgba(255,255,255,0.8);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:300%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.stamp{
+    width:15%;
+    height:10%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .stamp:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content93{
+    width:90%;
+    height:200%;
+    }
+    .stamp{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .stamp:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper94{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper94 .letter94{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper94 .letter94{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper94 .btn94{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal94{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.modal-content94  {
+    background-color:rgba(0,0,0,0.4);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.cherry{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .cherry:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content94{
+    width:90%;
+    height:200%;
+    }
+    .cherry{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .cherry:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper95{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper95 .letter95{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper95 .letter95{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper95 .btn95{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal95{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-content95 {
+    background-color:rgba(0,0,0,0.6);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height: 200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.loss{
+    width:8%;
+    height:8%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .loss:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content95{
+    width:90%;
+    height:200%;
+    }
+    .loss{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .loss:hover{
+       transform:scale(2.0)
+    }
+ }
+.whopper96{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper96 .letter96{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper96 .letter96{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper96 .btn96{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal96{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content96{
+    background-color:rgba(255,255,255,0.9);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+
+.sphere{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .sphere:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content96{
+    width:90%;
+    height:200%;
+    }
+    .sphere{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .sphere:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper97{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper97 .letter97{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper97 .letter97{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper97 .btn97{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal97{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content97{
+    background-color:rgba(255,255,255,0.9);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.ear{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .ear:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content97{
+    width:90%;
+    height:200%;
+    }
+    .ear{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .ear:hover{
+       transform:scale(2.0)
+    }
+ }
+
+.whopper98{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper98 .letter98{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper98 .letter98{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper98 .btn98{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal98{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content98{
+    background-color: rgba(255,255,255,0.9);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.eye{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .eye:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content98{
+    width:90%;
+    height:200%;
+    }
+    .eye{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .eye:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper99{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper99 .letter99{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper99 .letter99{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper99 .btn99{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal99{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content99{
+    background-color: rgba(255,255,255,0.9);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+.rondine{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .rondine:hover{
+   transform:scale(1.5);  
+ }
+
+  @media screen and (max-width:750px) {
+  .modal-content99{
+    width:90%;
+    height:200%;
+    }
+    .rondine{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .rondine:hover{
+       transform:scale(2.0)
+    }
+ }
+
+
+.whopper100{ 
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: transparent;
+}
+.whopper100 .letter100{
+    position: relative;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;        
+}
+@media screen and (max-width:750px) {
+    .whopper100 .letter100{
+        height: 80.5px;
+        width: 134.625px;
+    }
+}
+
+.whopper100 .btn100{
+    position: absolute;
+    height: 107.3px;
+    width: 179.5px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+}
+
+.modal100{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content100{
+    background-color: rgba(255,255,255,0.9);
+    margin: 15% auto;  
+    padding: 20px;
+    width: 70%;
+    height:200%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17)
+}
+
+
+.dog{
+    width:12.5%;
+    height:12.5%;
+    margin-left:80%;
+    transition: transform .2s
+ }
+ 
+ .dog:hover{
+   transform:scale(1.5);  
+ }
+
+#museum{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    text-shadow: 2px 2px #000;
+    height: 50px;
+    font-size:10px;
+    background-color:rgba(0,0,0,0.1);
+    width:100%;
+}
+
+  @media screen and (max-width:750px) {
+  .modal-content100{
+    width:90%;
+    height:200%;
+    }
+    .dog{
+    margin-left:70%;
+    width:25%;
+    height:8%;   
+    }
+    .dog:hover{
+       transform:scale(2.0)
+    }
+ }
