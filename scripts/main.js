@@ -3187,3 +3187,36 @@ function clickOutside(e){
     }
     }
     }
+
+
+{//Get modal element
+    var modal101 = document.getElementById('Lettermodal101');
+    //Get open modal button
+    var modalBtn101 = document.getElementById('modalBtn101');
+    //Get close button
+    var  closeBtn = document.getElementsByClassName('closeBtn')[99];
+    
+    //Listen for open click
+    modalBtn101.addEventListener('click', openModal);
+    //Listen for close click
+     closeBtn.addEventListener('click', closeModal);
+    //Listen for outside click
+    window.addEventListener('click', clickOutside);
+    
+    //Function to open modal
+    function openModal() {
+        modal101.style.display= 'block';
+    }
+    
+    //Function to close modal
+    function closeModal(){
+        modal101.style.display = 'none';
+    }
+    
+    //Function to close modal if outside click
+    function clickOutside(e){
+        if(e.target == modal101){
+        modal101.style.display = 'none';
+    }
+    }
+    }
