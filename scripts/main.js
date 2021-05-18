@@ -3128,7 +3128,7 @@ function clickOutside(e){
     //Get open modal button
     var modalBtn99 = document.getElementById('modalBtn99');
     //Get close button
-    var  closeBtn = document.getElementsByClassName('closeBtn')[96];
+    var  closeBtn = document.getElementsByClassName('closeBtn')[97];
     
     //Listen for open click
     modalBtn99.addEventListener('click', openModal);
@@ -3161,7 +3161,7 @@ function clickOutside(e){
     //Get open modal button
     var modalBtn100 = document.getElementById('modalBtn100');
     //Get close button
-    var closeBtn = document.getElementsByClassName('closeBtn')[97];
+    var closeBtn = document.getElementsByClassName('closeBtn')[98];
 
     //Listen for open click
     modalBtn100.addEventListener('click', openModal);
