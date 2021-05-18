@@ -4183,12 +4183,12 @@ x{
     top: 0;
     left: 0;        
 }
-
 @media screen and (max-width:750px) {
-    .pepperoni .letter101{
+    .whopper51 .letter51{
         height: 80.5px;
         width: 134.625px;
     }
+}
 
 .pepperoni .btn101{
     position: absolute;
